@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CVehicleModColorsGen9>
+ <chameleon>
+    <Item>
+      <name>G9_PAINT01</name>
+      <col value="161"/>
+      <spec value="0"/>
+    </Item>
+    <Item>
+      <name>G9_PAINT14</name>
+      <col value="174"/>
+      <spec value="0"/>
+    </Item>
+    <Item>
+      <name>G9_PAINT02</name>
+      <col value="162"/>
+      <spec value="0"/>
+    </Item>
+    <Item>
+      <name>G9_PAINT03</name>
+      <col value="163"/>
+      <spec value="0"/>
+    </Item>
+    <Item>
+      <name>G9_PAINT04</name>
+      <col value="164"/>
+      <spec value="0"/>
+    </Item>
+    <Item>
+      <name>G9_PAINT05</name>
+      <col value="165"/>
+      <spec value="0"/>
+    </Item>
+    <Item>
+      <name>G9_PAINT11</name>
+      <col value="171"/>
+      <spec value="0"/>
+    </Item>
+    <Item>
+      <name>G9_PAINT16</name>
+      <col value="176"/>
+      <spec value="0"/>
+    </Item>
+    <Item>
+      <name>G9_PAINT06</name>
+      <col value="166"/>
+      <spec value="0"/>
+    </Item>
+    <Item>
+      <name>G9_PAINT07</name>
+      <col value="167"/>
+      <spec value="0"/>
+    </Item>
+    <Item>
+      <name>G9_PAINT12</name>
+      <col value="172"/>
+      <spec value="0"/>
+    </Item>
+    <Item>
+      <name>G9_PAINT08</name>
+      <col value="168"/>
+      <spec value="0"/>
+    </Item>
+    <Item>
+      <name>G9_PAINT09</name>
+      <col value="169"/>
+      <spec value="0"/>
+    </Item>
+    <Item>
+      <name>G9_PAINT10</name>
+      <col value="170"/>
+      <spec value="0"/>
+    </Item>
+    <Item>
+      <name>G9_PAINT13</name>
+      <col value="173"/>
+      <spec value="0"/>
+    </Item>
+    <Item>
+      <name>G9_PAINT15</name>
+      <col value="175"/>
+      <spec value="0"/>
+    </Item>
+ </chameleon>
+</CVehicleModColorsGen9>
