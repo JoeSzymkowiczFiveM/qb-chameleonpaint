@@ -42,7 +42,6 @@ AddEventHandler('qb-chameleonpaint:client:sprayVehicle', function(name, index)
                 SetVehicleColours(vehicle, index, index)
                 DeleteObject(prop)
                 ClearPedTasks(ped)
-                --busy = false
             end, function() -- Cancel
                 DeleteObject(prop)
                 ClearPedTasks(ped)
