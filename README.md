@@ -1,7 +1,7 @@
 ## Description
 A simple script to use an item to apply chameleon paint to vehicles in fivem. I haven't seen much discussion about the chameleon paint affects added in a recent DLC, so thought I would make very simple script to show how these new vehicle color indexes are applied. I have added a simple inventory icon for this item, and you must move `spraypaint.ogg` to your `interactsound` resource. I'm sure more can be done with this like adding indexes to `qb-customs` or adding job dependancy, but I will leave that to all of you to do. Hope this helps.
 
-You must add the meta and texture files found in the `data` and `stream` folders for this to work.
+The meta and texture files found in the `data` and `stream` folders must be present for this to work.
 
 ## Credit
 - [MrZedo](https://github.com/MrZedo/Cameleon-Color) Used information and assets found in this repo to implement the primary effect.
