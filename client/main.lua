@@ -1,4 +1,5 @@
 local QBCore = exports['qb-core']:GetCoreObject()
+local gameBuild = GetGameBuildNumber()
 
 RegisterNetEvent('qb-chameleonpaint:client:sprayVehicle')
 AddEventHandler('qb-chameleonpaint:client:sprayVehicle', function(name, index)
@@ -39,7 +40,7 @@ AddEventHandler('qb-chameleonpaint:client:sprayVehicle', function(name, index)
                 local pedCoords = GetEntityCoords(ped)
                 local vehicle = QBCore.Functions.GetClosestVehicle(pedCoords)
                 SetVehicleModKit(vehicle, 0)
-                SetVehicleColours(vehicle, index, index)
+                SetVehicleColours(vehicle, Config.ChameleonColors[index][gameBuild], Config.ChameleonColors[index][gameBuild])
                 DeleteObject(prop)
                 ClearPedTasks(ped)
             end, function() -- Cancel
