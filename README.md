@@ -8,6 +8,7 @@ The meta and texture files found in the `data` and `stream` folders must be pres
 
 ## Dependencies
 - [qb-core](https://github.com/qbcore-framework/qb-core)
+- For the colors to work you must be in GameBuild 2545
 
 ## Preview
 https://streamable.com/oes8d9
