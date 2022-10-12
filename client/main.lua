@@ -1,6 +1,15 @@
 local QBCore = exports['qb-core']:GetCoreObject()
 local gameBuild = GetGameBuildNumber()
 
+local function setMods()
+    local ped = PlayerPedId()
+    local pedCoords = GetEntityCoords(ped)
+    local veh = QBCore.Functions.GetClosestVehicle(pedCoords)
+    local myCar = QBCore.Functions.GetVehicleProperties(veh)
+    TriggerServerEvent('qb-chameleonpaint:server:setMods', myCar)
+end
+
+
 RegisterNetEvent('qb-chameleonpaint:client:sprayVehicle')
 AddEventHandler('qb-chameleonpaint:client:sprayVehicle', function(name, index)
     local ped = PlayerPedId()
@@ -15,7 +24,7 @@ AddEventHandler('qb-chameleonpaint:client:sprayVehicle', function(name, index)
         end
         local prop = CreateObject(can_model, GetEntityCoords(ped), true, true, true)
 		AttachEntityToEntity(prop, ped, GetPedBoneIndex(ped, 57005), 0.12, 0.0, -0.04, -70.0, 0.0, -10.0, true, true, false, false, 1, true)
-        QBCore.Functions.Progressbar("shaking", 'Shaking can', 15000, false, true, {
+        QBCore.Functions.Progressbar("shaking", 'Shaking can', 5000, false, true, {
             disableMovement = true,
             disableCarMovement = true,
             disableMouse = false,
@@ -27,7 +36,7 @@ AddEventHandler('qb-chameleonpaint:client:sprayVehicle', function(name, index)
         }, {}, {}, function()
             ClearPedTasks(ped)
             TriggerServerEvent("InteractSound_SV:PlayOnSource", "spraypaint", 0.3)
-            QBCore.Functions.Progressbar("painting", 'Painting', 15000, false, true, {
+            QBCore.Functions.Progressbar("painting", 'Painting', 5000, false, true, {
                 disableMovement = true,
                 disableCarMovement = true,
                 disableMouse = false,
@@ -41,6 +50,7 @@ AddEventHandler('qb-chameleonpaint:client:sprayVehicle', function(name, index)
                 local vehicle = QBCore.Functions.GetClosestVehicle(pedCoords)
                 SetVehicleModKit(vehicle, 0)
                 SetVehicleColours(vehicle, Config.ChameleonColors[index][gameBuild], Config.ChameleonColors[index][gameBuild])
+                setMods()
                 DeleteObject(prop)
                 ClearPedTasks(ped)
             end, function() -- Cancel
@@ -53,3 +63,4 @@ AddEventHandler('qb-chameleonpaint:client:sprayVehicle', function(name, index)
         end)
     end
 end)
+
