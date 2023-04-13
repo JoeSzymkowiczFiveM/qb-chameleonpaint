@@ -1,5 +1,8 @@
 Config = {}
 
+Config.CanTime = 500 -- How long the can gets shaken for before spraying in milliseconds
+Config.SprayTime = 500 -- How long the spraying time is after shaking in milliseconds
+
 Config.ChameleonColors = {
 	['161'] = {
 		[2545] = 161,
