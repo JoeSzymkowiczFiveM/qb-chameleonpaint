@@ -24,7 +24,7 @@ AddEventHandler('qb-chameleonpaint:client:sprayVehicle', function(name, index)
         end
         local prop = CreateObject(can_model, GetEntityCoords(ped), true, true, true)
 		AttachEntityToEntity(prop, ped, GetPedBoneIndex(ped, 57005), 0.12, 0.0, -0.04, -70.0, 0.0, -10.0, true, true, false, false, 1, true)
-        QBCore.Functions.Progressbar("shaking", 'Shaking can', 15000, false, true, {
+        QBCore.Functions.Progressbar("shaking", 'Shaking can', Config.CanTime, false, true, {
             disableMovement = true,
             disableCarMovement = true,
             disableMouse = false,
@@ -36,7 +36,7 @@ AddEventHandler('qb-chameleonpaint:client:sprayVehicle', function(name, index)
         }, {}, {}, function()
             ClearPedTasks(ped)
             TriggerServerEvent("InteractSound_SV:PlayOnSource", "spraypaint", 0.3)
-            QBCore.Functions.Progressbar("painting", 'Painting', 15000, false, true, {
+            QBCore.Functions.Progressbar("painting", 'Painting', Config.SprayTime, false, true, {
                 disableMovement = true,
                 disableCarMovement = true,
                 disableMouse = false,
