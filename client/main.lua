@@ -1,5 +1,4 @@
 local QBCore = exports['qb-core']:GetCoreObject()
-local gameBuild = GetGameBuildNumber()
 
 local function setMods()
     local ped = PlayerPedId()
@@ -9,9 +8,8 @@ local function setMods()
     TriggerServerEvent('qb-chameleonpaint:server:setMods', myCar)
 end
 
-
-RegisterNetEvent('qb-chameleonpaint:client:sprayVehicle')
-AddEventHandler('qb-chameleonpaint:client:sprayVehicle', function(name, index)
+RegisterNetEvent('qb-chameleonpaint:client:sprayVehicle', function(name, index)
+    if GetInvokingResource() then return end
     local ped = PlayerPedId()
     if not IsPedInAnyVehicle(ped, false) then
         local dict1, anim1 = 'switch@franklin@lamar_tagging_wall', 'lamar_tagging_wall_loop_lamar'
@@ -49,7 +47,7 @@ AddEventHandler('qb-chameleonpaint:client:sprayVehicle', function(name, index)
                 local pedCoords = GetEntityCoords(ped)
                 local vehicle = QBCore.Functions.GetClosestVehicle(pedCoords)
                 SetVehicleModKit(vehicle, 0)
-                SetVehicleColours(vehicle, Config.ChameleonColors[index][gameBuild], Config.ChameleonColors[index][gameBuild])
+                SetVehicleColours(vehicle, index, index)
                 setMods()
                 DeleteObject(prop)
                 ClearPedTasks(ped)

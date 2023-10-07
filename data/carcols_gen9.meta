@@ -2,164 +2,204 @@
 <CVehicleModelColorsGen9>
  <Colors>
   <Item>
-   <color value="0xFFFFFFFF" />
-   <metallicID>EVehicleModelColorMetallic_1</metallicID>
+   <color value="0x00000000" />
+   <metallicID>EVehicleModelColorMetallic_normal</metallicID>
    <audioColor>POLICE_SCANNER_COLOUR_black</audioColor>
    <audioPrefix>none</audioPrefix>
    <audioColorHash value="3850041493" />
    <audioPrefixHash value="0" />
-   <colorName> 161 Ramp Monochrome </colorName>
-   <rampTextureName>vehicle_paint_ramps_01</rampTextureName>
+   <colorName> 223 Anodized Monochrome </colorName>
+   <rampTextureName>vehicle_paint_ramp_fubuki001</rampTextureName>
   </Item>
   <Item>
-   <color value="0xFFFFFFFF" />
-   <metallicID>EVehicleModelColorMetallic_1</metallicID>
+   <color value="0x00000000" />
+   <metallicID>EVehicleModelColorMetallic_normal</metallicID>
    <audioColor>POLICE_SCANNER_COLOUR_yellow</audioColor>
    <audioPrefix>none</audioPrefix>
    <audioColorHash value="3440150791" />
    <audioPrefixHash value="0" />
-   <colorName> 162 Ramp blue yellow </colorName>
-   <rampTextureName>vehicle_paint_ramps_02</rampTextureName>
+   <colorName> 224 Day Night Flip </colorName>
+   <rampTextureName>vehicle_paint_ramp_fubuki002</rampTextureName>
   </Item>
   <Item>
-   <color value="0xFFFFFFFF" />
-   <metallicID>EVehicleModelColorMetallic_1</metallicID>
+   <color value="0x00000000" />
+   <metallicID>EVehicleModelColorMetallic_normal</metallicID>
    <audioColor>POLICE_SCANNER_COLOUR_pink</audioColor>
    <audioPrefix>none</audioPrefix>
    <audioColorHash value="2019367074" />
    <audioPrefixHash value="0" />
-   <colorName> 163 Ramp Verlierer2 </colorName>
-   <rampTextureName>vehicle_paint_ramps_03</rampTextureName>
+   <colorName> 225 Verlierer Flip </colorName>
+   <rampTextureName>vehicle_paint_ramp_fubuki003</rampTextureName>
   </Item>
   <Item>
-   <color value="0xFFFFFFFF" />
-   <metallicID>EVehicleModelColorMetallic_1</metallicID>
+   <color value="0x00000000" />
+   <metallicID>EVehicleModelColorMetallic_normal</metallicID>
    <audioColor>POLICE_SCANNER_COLOUR_green</audioColor>
    <audioPrefix>none</audioPrefix>
    <audioColorHash value="306110198" />
    <audioPrefixHash value="0" />
-   <colorName> 164 Ramp green </colorName>
-   <rampTextureName>vehicle_paint_ramps_04</rampTextureName>
+   <colorName> 226 Anodized Sprunk </colorName>
+   <rampTextureName>vehicle_paint_ramp_fubuki004</rampTextureName>
   </Item>
   <Item>
-   <color value="0xFFFFFFFF" />
-   <metallicID>EVehicleModelColorMetallic_1</metallicID>
+   <color value="0x00000000" />
+   <metallicID>EVehicleModelColorMetallic_normal</metallicID>
    <audioColor>POLICE_SCANNER_COLOUR_pink</audioColor>
    <audioPrefix>none</audioPrefix>
    <audioColorHash value="2019367074" />
    <audioPrefixHash value="0" />
-   <colorName> 165 Ramp Vice City </colorName>
-   <rampTextureName>vehicle_paint_ramps_05</rampTextureName>
+   <colorName> 227 Vice City Flip </colorName>
+   <rampTextureName>vehicle_paint_ramp_fubuki005</rampTextureName>
   </Item>
   <Item>
-   <color value="0xFFFFFFFF" />
-   <metallicID>EVehicleModelColorMetallic_1</metallicID>
+   <color value="0x00000000" />
+   <metallicID>EVehicleModelColorMetallic_normal</metallicID>
    <audioColor>POLICE_SCANNER_COLOUR_blue</audioColor>
    <audioPrefix>POLICE_SCANNER_PREFIX_dark</audioPrefix>
    <audioColorHash value="3826758445" />
    <audioPrefixHash value="1169689894" />
-   <colorName> 166 Ramp Synthwave </colorName>
-   <rampTextureName>vehicle_paint_ramps_06</rampTextureName>
+   <colorName> 228 Synthwave Pearl </colorName>
+   <rampTextureName>vehicle_paint_ramp_fubuki006</rampTextureName>
   </Item>
   <Item>
-   <color value="0xFFFFFFFF" />
-   <metallicID>EVehicleModelColorMetallic_1</metallicID>
+   <color value="0x00000000" />
+   <metallicID>EVehicleModelColorMetallic_normal</metallicID>
    <audioColor>POLICE_SCANNER_COLOUR_blue</audioColor>
    <audioPrefix>POLICE_SCANNER_PREFIX_light</audioPrefix>
    <audioColorHash value="3826758445" />
    <audioPrefixHash value="3089268592" />
-   <colorName> 167 Ramp 4seasonsplate </colorName>
-   <rampTextureName>vehicle_paint_ramps_07</rampTextureName>
+   <colorName> 229 Seasons Flip </colorName>
+   <rampTextureName>vehicle_paint_ramp_fubuki007</rampTextureName>
   </Item>
   <Item>
-   <color value="0xFFFFFFFF" />
-   <metallicID>EVehicleModelColorMetallic_1</metallicID>
+   <color value="0x00000000" />
+   <metallicID>EVehicleModelColorMetallic_normal</metallicID>
    <audioColor>POLICE_SCANNER_COLOUR_yellow</audioColor>
    <audioPrefix>none</audioPrefix>
    <audioColorHash value="3440150791" />
    <audioPrefixHash value="0" />
-   <colorName> 168 Ramp tbogt </colorName>
-   <rampTextureName>vehicle_paint_ramps_08</rampTextureName>
+   <colorName> 230 TBOGT Pearl </colorName>
+   <rampTextureName>vehicle_paint_ramp_fubuki008</rampTextureName>
   </Item>
   <Item>
-   <color value="0xFFFFFFFF" />
-   <metallicID>EVehicleModelColorMetallic_1</metallicID>
+   <color value="0x00000000" />
+   <metallicID>EVehicleModelColorMetallic_normal</metallicID>
    <audioColor>POLICE_SCANNER_COLOUR_blue</audioColor>
    <audioPrefix>POLICE_SCANNER_PREFIX_light</audioPrefix>
    <audioColorHash value="3826758445" />
    <audioPrefixHash value="3089268592" />
-   <colorName> 169 Ramp bubblegum </colorName>
-   <rampTextureName>vehicle_paint_ramps_09</rampTextureName>
+   <colorName> 231 Bubblegum Pearl </colorName>
+   <rampTextureName>vehicle_paint_ramp_fubuki009</rampTextureName>
   </Item>
   <Item>
-   <color value="0xFFFFFFFF" />
-   <metallicID>EVehicleModelColorMetallic_1</metallicID>
+   <color value="0x00000000" />
+   <metallicID>EVehicleModelColorMetallic_normal</metallicID>
    <audioColor>POLICE_SCANNER_COLOUR_red</audioColor>
    <audioPrefix>none</audioPrefix>
    <audioColorHash value="1585269136" />
    <audioPrefixHash value="0" />
-   <colorName> 170 Ramp rainbow </colorName>
-   <rampTextureName>vehicle_paint_ramps_10</rampTextureName>
+   <colorName> 232 Rainbow Prismatic </colorName>
+   <rampTextureName>vehicle_paint_ramp_fubuki010</rampTextureName>
   </Item>
   <Item>
-   <color value="0xFFFFFFFF" />
-   <metallicID>EVehicleModelColorMetallic_1</metallicID>
+   <color value="0x00000000" />
+   <metallicID>EVehicleModelColorMetallic_normal</metallicID>
    <audioColor>POLICE_SCANNER_COLOUR_orange</audioColor>
    <audioPrefix>none</audioPrefix>
    <audioColorHash value="2639756769" />
    <audioPrefixHash value="0" />
-   <colorName> 171 Ramp sunset </colorName>
-   <rampTextureName>vehicle_paint_ramps_11</rampTextureName>
+   <colorName> 233 Sunset Flip </colorName>
+   <rampTextureName>vehicle_paint_ramp_fubuki011</rampTextureName>
   </Item>
   <Item>
-   <color value="0xFFFFFFFF" />
-   <metallicID>EVehicleModelColorMetallic_1</metallicID>
+   <color value="0x00000000" />
+   <metallicID>EVehicleModelColorMetallic_normal</metallicID>
    <audioColor>POLICE_SCANNER_COLOUR_blue</audioColor>
    <audioPrefix>none</audioPrefix>
    <audioColorHash value="3826758445" />
    <audioPrefixHash value="0" />
-   <colorName> 172 Ramp visions </colorName>
-   <rampTextureName>vehicle_paint_ramps_12</rampTextureName>
+   <colorName> 234 Visions Prismatic </colorName>
+   <rampTextureName>vehicle_paint_ramp_fubuki012</rampTextureName>
   </Item>
   <Item>
-   <color value="0xFFFFFFFF" />
-   <metallicID>EVehicleModelColorMetallic_1</metallicID>
+   <color value="0x00000000" />
+   <metallicID>EVehicleModelColorMetallic_normal</metallicID>
    <audioColor>POLICE_SCANNER_COLOUR_brown</audioColor>
    <audioPrefix>none</audioPrefix>
    <audioColorHash value="2201497177" />
    <audioPrefixHash value="0" />
-   <colorName> 173 Ramp maziora </colorName>
-   <rampTextureName>vehicle_paint_ramps_13</rampTextureName>
+   <colorName> 235 Maziora Prismatic </colorName>
+   <rampTextureName>vehicle_paint_ramp_fubuki013</rampTextureName>
   </Item>
   <Item>
-   <color value="0xFFFFFFFF" />
-   <metallicID>EVehicleModelColorMetallic_1</metallicID>
+   <color value="0x00000000" />
+   <metallicID>EVehicleModelColorMetallic_normal</metallicID>
    <audioColor>POLICE_SCANNER_COLOUR_red</audioColor>
    <audioPrefix>POLICE_SCANNER_PREFIX_bright</audioPrefix>
    <audioColorHash value="1585269136" />
    <audioPrefixHash value="1815504495" />
-   <colorName> 174 Ramp 3Dglasses </colorName>
-   <rampTextureName>vehicle_paint_ramps_14</rampTextureName>
+   <colorName> 236 3DGlasses Flip </colorName>
+   <rampTextureName>vehicle_paint_ramp_fubuki014</rampTextureName>
   </Item>
   <Item>
-   <color value="0xFFFFFFFF" />
-   <metallicID>EVehicleModelColorMetallic_1</metallicID>
+   <color value="0x00000000" />
+   <metallicID>EVehicleModelColorMetallic_normal</metallicID>
    <audioColor>POLICE_SCANNER_COLOUR_green</audioColor>
    <audioPrefix>none</audioPrefix>
    <audioColorHash value="306110198" />
    <audioPrefixHash value="0" />
-   <colorName> 175 Ramp Christmas </colorName>
-   <rampTextureName>vehicle_paint_ramps_15</rampTextureName>
+   <colorName> 237 Christmas Flip </colorName>
+   <rampTextureName>vehicle_paint_ramp_fubuki015</rampTextureName>
   </Item>
   <Item>
-   <color value="0xFFFFFFFF" />
-   <metallicID>EVehicleModelColorMetallic_1</metallicID>
-   <audioColor>POLICE_SCANNER_COLOUR_orange</audioColor>
+   <color value="0x00000000" />
+   <metallicID>EVehicleModelColorMetallic_normal</metallicID>
+   <audioColor>POLICE_SCANNER_COLOUR_red</audioColor>
    <audioPrefix>none</audioPrefix>
-   <audioColorHash value="2639756769" />
+   <audioColorHash value="1585269136" />
    <audioPrefixHash value="0" />
-   <colorName> 176 Ramp px </colorName>
-   <rampTextureName>pixels</rampTextureName>
+   <colorName> 238 Temperature Prismatic </colorName>
+   <rampTextureName>vehicle_paint_ramp_fubuki016</rampTextureName>
+  </Item>
+  <Item>
+   <color value="0x00000000" />
+   <metallicID>EVehicleModelColorMetallic_normal</metallicID>
+   <audioColor>POLICE_SCANNER_COLOUR_red</audioColor>
+   <audioPrefix>none</audioPrefix>
+   <audioColorHash value="1585269136" />
+   <audioPrefixHash value="0" />
+   <colorName> 239 HSW Flip </colorName>
+   <rampTextureName>vehicle_paint_ramp_fubuki017</rampTextureName>
+  </Item>
+  <Item>
+   <color value="0x00000000" />
+   <metallicID>EVehicleModelColorMetallic_normal</metallicID>
+   <audioColor>POLICE_SCANNER_COLOUR_pink</audioColor>
+   <audioPrefix>none</audioPrefix>
+   <audioColorHash value="2019367074" />
+   <audioPrefixHash value="0" />
+   <colorName> 240 Anodized Electro </colorName>
+   <rampTextureName>vehicle_paint_ramp_fubuki018</rampTextureName>
+  </Item>
+  <Item>
+   <color value="0x00000000" />
+   <metallicID>EVehicleModelColorMetallic_normal</metallicID>
+   <audioColor>POLICE_SCANNER_COLOUR_green</audioColor>
+   <audioPrefix>none</audioPrefix>
+   <audioColorHash value="306110198" />
+   <audioPrefixHash value="0" />
+   <colorName> 241 Monika Prismatic </colorName>
+   <rampTextureName>vehicle_paint_ramp_fubuki019</rampTextureName>
+  </Item>
+  <Item>
+   <color value="0x00000000" />
+   <metallicID>EVehicleModelColorMetallic_normal</metallicID>
+   <audioColor>POLICE_SCANNER_COLOUR_blue</audioColor>
+   <audioPrefix>POLICE_SCANNER_PREFIX_light</audioPrefix>
+   <audioColorHash value="3826758445" />
+   <audioPrefixHash value="3089268592" />
+   <colorName> 242 Anodized Fubuki </colorName>
+   <rampTextureName>vehicle_paint_ramp_fubuki020</rampTextureName>
   </Item>
  </Colors>
 </CVehicleModelColorsGen9>
